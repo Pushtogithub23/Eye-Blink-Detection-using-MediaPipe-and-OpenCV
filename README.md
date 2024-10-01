@@ -1,5 +1,5 @@
 
-# Eye Blink Detection with EAR and Real-Time Plotting
+# Eye Blink Detection with MediaPipe and OpenCV and Real-Time EAR Plotting
 
 This project performs real-time eye blink detection using the Eye Aspect Ratio (EAR) and MediaPipe's facial landmark detection. The project draws eye landmarks, calculates the EAR, and plots the EAR in real-time along with blink detection results. The processed video frames are saved alongside the EAR plot.
 
