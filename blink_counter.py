@@ -220,7 +220,7 @@ class BlinkCounter:
 
 # Example usage
 if __name__ == "__main__":
-    input_video_path = "FACE_MESH/VIDEOS/DOWNLOADED_VIDEOS/blinking_4.mp4"
+    input_video_path = "DATA/VIDEOS/INPUTS/blinking_4.mp4"
     
     # Create blink counter with custom parameters
     blink_counter = BlinkCounter(
