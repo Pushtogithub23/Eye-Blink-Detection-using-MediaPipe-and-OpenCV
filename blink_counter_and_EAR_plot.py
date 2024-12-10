@@ -61,7 +61,7 @@ class BlinkCounterandEARPlot:
         self.out = None
         
         if self.save_video and self.output_filename:
-            save_dir = "FACE_MESH/VIDEOS/MASKED VIDEOS"
+            save_dir = "DATA/VIDEOS/OUTPUTS"
             os.makedirs(save_dir, exist_ok=True)
             self.output_filename = os.path.join(save_dir, self.output_filename)
 
@@ -375,7 +375,7 @@ class BlinkCounterandEARPlot:
 
 if __name__ == "__main__":
     # Example usage
-    input_video_path = "FACE_MESH/VIDEOS/DOWNLOADED VIDEOS/blinking_1.mp4"
+    input_video_path = "DATA/VIDEOS/INPUTS/blinking_1.mp4"
     blink_counter = BlinkCounterandEARPlot(
         video_path=input_video_path,
         threshold=0.294,
